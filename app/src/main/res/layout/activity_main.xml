@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtGrados"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/texto_grados"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/txtCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_below="@+id/txtGrados"
+        android:layout_alignStart="@+id/txtGrados"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/ciudad"
+        android:textAlignment="center"
+        android:textColor="@color/colorOnPrimary"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtEstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCiudad"
+        android:layout_alignStart="@+id/txtCiudad"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/estatus"
+        android:textAlignment="center"
+        android:textColor="#94FFFFFF"
+        android:textSize="25sp" />
+</RelativeLayout>

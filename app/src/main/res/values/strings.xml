@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="texto_grados">23°</string>
+    <string name="ciudad">Ciudad de México</string>
+    <string name="estatus">Nublado</string>
+    <string name="title_activity_ciudades">Ciudades</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="texto_bienvenida">
+        Bienvenido a mi clima, para poder ver el clima de una ciudad presiona el boton de abajo
+    </string>
+    <string name="texto_boton_mexico">Clima de la ciudad de México</string>
+    <string name="texto_boton_berlin">Clima de la ciudad de Berlin</string>
+    <string name="texto_boton_shangai">Clima de la ciudad  de Shanghai</string>
+</resources>
