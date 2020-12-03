@@ -71,7 +71,7 @@ if (ciudad == "ciudad-mexico"){
     txtGrados?.text = ciudadShanghai.grados.toString() + "°";
     txtEstatus?.text = ciudadShanghai.estatus
 }else{
-    Toast.makeText(this, "NO se encontro la ciudad", Toast.LENGTH_LONG)
+    Toast.makeText(this, "NO se encontro la ciudad", Toast.LENGTH_LONG).show()
 }
 ```
 Al final comentar la invocación al método requestHttpVolley()
